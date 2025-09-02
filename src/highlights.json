@@ -1,0 +1,232 @@
+[
+  {
+    "title": "Early Industrial Age (1800–1825)",
+    "events": [
+      {
+        "year": 1804,
+        "description": "Richard Trevithick runs the first full-scale working railway steam locomotive.\nIt demonstrates the potential of steam power for land transport."
+      },
+      {
+        "year": 1807,
+        "description": "Robert Fulton’s Clermont makes a successful steamboat voyage on the Hudson River.\nCommercial steam navigation becomes viable."
+      },
+      {
+        "year": 1814,
+        "description": "George Stephenson builds the locomotive Blücher for hauling coal.\nIt marks a practical step toward modern railways."
+      },
+      {
+        "year": 1815,
+        "description": "Sir Humphry Davy develops the safety lamp for miners.\nAccidents in coal mines are reduced by isolating flame from firedamp."
+      },
+      {
+        "year": 1819,
+        "description": "SS Savannah completes the first steam-assisted transatlantic crossing.\nHybrid sail-steam travel proves long-range feasibility."
+      },
+      {
+        "year": 1821,
+        "description": "Michael Faraday demonstrates electromagnetic rotation.\nThe core principle behind electric motors is revealed."
+      },
+      {
+        "year": 1822,
+        "description": "Charles Babbage proposes the Difference Engine.\nA landmark in the conceptual history of computing machinery."
+      },
+      {
+        "year": 1825,
+        "description": "Stockton and Darlington Railway opens in England.\nThe first public railway to use steam locomotives for passengers and freight."
+      }
+    ]
+  },
+  {
+    "title": "Electromagnetism and Communication (1826–1850)",
+    "events": [
+      {
+        "year": 1826,
+        "description": "Nicéphore Niépce creates the first permanent photograph.\nA new era of image capture and visual documentation begins."
+      },
+      {
+        "year": 1831,
+        "description": "Michael Faraday discovers electromagnetic induction.\nElectric generators and transformers become scientifically grounded."
+      },
+      {
+        "year": 1837,
+        "description": "Samuel Morse demonstrates the electric telegraph.\nLong-distance communication accelerates beyond physical mail."
+      },
+      {
+        "year": 1839,
+        "description": "Louis Daguerre announces the daguerreotype process.\nPractical photography spreads rapidly across the world."
+      },
+      {
+        "year": 1843,
+        "description": "Ada Lovelace publishes notes on the Analytical Engine.\nHer algorithmic insights foreshadow modern programming."
+      },
+      {
+        "year": 1846,
+        "description": "Ether anesthesia is publicly demonstrated in surgery.\nPain management transforms medical practice and outcomes."
+      },
+      {
+        "year": 1849,
+        "description": "Walter Hunt patents the modern safety pin.\nA simple, secure fastener becomes a ubiquitous tool."
+      },
+      {
+        "year": 1850,
+        "description": "First submarine telegraph cable is laid across the English Channel.\nSubsea communications begin linking nations directly."
+      }
+    ]
+  },
+  {
+    "title": "Steel, Science, and Society (1851–1875)",
+    "events": [
+      {
+        "year": 1851,
+        "description": "The Great Exhibition opens in London’s Crystal Palace.\nIndustry, design, and innovation are showcased on a global stage."
+      },
+      {
+        "year": 1856,
+        "description": "Henry Bessemer patents the Bessemer steel process.\nMass-produced steel revolutionizes construction and rail."
+      },
+      {
+        "year": 1859,
+        "description": "Charles Darwin publishes On the Origin of Species.\nEvolution by natural selection reshapes biology and thought."
+      },
+      {
+        "year": 1861,
+        "description": "The American Civil War begins.\nIndustrial capacity and logistics become decisive in modern warfare."
+      },
+      {
+        "year": 1866,
+        "description": "A durable transatlantic telegraph cable succeeds.\nNear-instant communication connects Europe and North America."
+      },
+      {
+        "year": 1867,
+        "description": "Alfred Nobel patents dynamite.\nA safer explosive accelerates mining and infrastructure projects."
+      },
+      {
+        "year": 1873,
+        "description": "Remington introduces a commercially produced typewriter.\nOffice work and written communication are transformed."
+      },
+      {
+        "year": 1875,
+        "description": "The Metre Convention establishes international standards.\nGlobal metrology coordination improves trade and science."
+      }
+    ]
+  },
+  {
+    "title": "Electricity and Engines (1876–1900)",
+    "events": [
+      {
+        "year": 1876,
+        "description": "Alexander Graham Bell patents the telephone.\nVoice communication is transmitted electrically over distance."
+      },
+      {
+        "year": 1879,
+        "description": "Thomas Edison demonstrates a practical incandescent bulb.\nElectric lighting moves toward widespread adoption."
+      },
+      {
+        "year": 1882,
+        "description": "Edison’s Pearl Street Station begins operation in New York.\nOne of the first central power plants supplies electric light."
+      },
+      {
+        "year": 1885,
+        "description": "Karl Benz tests a gasoline-powered automobile.\nPersonal motorized transport takes a decisive step forward."
+      },
+      {
+        "year": 1888,
+        "description": "Nikola Tesla patents the AC induction motor.\nAlternating current systems gain a powerful workhorse."
+      },
+      {
+        "year": 1895,
+        "description": "Wilhelm Röntgen discovers X-rays.\nMedical diagnostics and physics receive a new probing tool."
+      },
+      {
+        "year": 1897,
+        "description": "J. J. Thomson identifies the electron.\nSubatomic physics enters an era of discovery."
+      },
+      {
+        "year": 1900,
+        "description": "Max Planck presents the quantum hypothesis.\nEnergy quantization challenges classical physics foundations."
+      }
+    ]
+  },
+  {
+    "title": "Modern Breakthroughs (1901–1950)",
+    "events": [
+      {
+        "year": 1903,
+        "description": "The Wright brothers achieve powered, controlled flight.\nAviation begins with sustained flights at Kitty Hawk."
+      },
+      {
+        "year": 1915,
+        "description": "Albert Einstein finalizes general relativity.\nGravity is described as the curvature of spacetime."
+      },
+      {
+        "year": 1928,
+        "description": "Alexander Fleming discovers penicillin.\nAntibiotics inaugurate a revolution in medicine."
+      },
+      {
+        "year": 1936,
+        "description": "Alan Turing outlines the concept of computation.\nThe Turing machine frames limits and power of algorithms."
+      },
+      {
+        "year": 1942,
+        "description": "Chicago Pile-1 achieves the first controlled chain reaction.\nNuclear engineering moves from theory to practice."
+      },
+      {
+        "year": 1945,
+        "description": "The Trinity test and WWII’s end reshape geopolitics.\nNuclear weapons and the UN define a new world order."
+      },
+      {
+        "year": 1947,
+        "description": "The transistor is invented at Bell Labs.\nElectronics shrink, paving the path to modern computing."
+      },
+      {
+        "year": 1950,
+        "description": "Alan Turing proposes the Imitation Game.\nA seminal test frames debates about machine intelligence."
+      }
+    ]
+  },
+  {
+    "title": "Space and Computing (1951–2000)",
+    "events": [
+      {
+        "year": 1957,
+        "description": "Sputnik 1 becomes the first artificial satellite.\nThe Space Age and global space race begin."
+      },
+      {
+        "year": 1961,
+        "description": "Yuri Gagarin orbits Earth as the first human in space.\nCrewed spaceflight proves achievable."
+      },
+      {
+        "year": 1969,
+        "description": "Apollo 11 lands humans on the Moon.\nTelevised steps symbolize technological ambition."
+      },
+      {
+        "year": 1971,
+        "description": "Intel introduces the 4004 microprocessor.\nGeneral-purpose computing fits onto a single chip."
+      },
+      {
+        "year": 1973,
+        "description": "The first handheld mobile phone call is made.\nPersonal, portable telephony takes shape."
+      },
+      {
+        "year": 1981,
+        "description": "IBM launches the IBM PC.\nA de facto standard accelerates the personal computing era."
+      },
+      {
+        "year": 1989,
+        "description": "Tim Berners-Lee proposes the World Wide Web.\nHypertext over the internet lays a new information fabric."
+      },
+      {
+        "year": 1991,
+        "description": "Linux is announced by Linus Torvalds.\nOpen-source operating systems gain a flagship kernel."
+      },
+      {
+        "year": 1995,
+        "description": "Windows 95 popularizes the desktop GUI for consumers.\nMass adoption drives the software and internet boom."
+      },
+      {
+        "year": 1998,
+        "description": "Google is founded by Larry Page and Sergey Brin.\nWeb search quality leaps, reshaping information access."
+      }
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+:root {
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-md: 16px;
+  --spacing-xl: 20px;
+  --spacing-xxl: 24px;
+
+  --breakpoint-xxl: 1440px;
+  --breakpoint-xl: 1220px;
+  --breakpoint-lg: 992px;
+  --breakpoint-md: 768px;
+  --breakpoint-sm: 568px;
+
+  --breakpoint-primary: var(--breakpoint-xxl);
+
+  --color-blue: #3877ee;
+  --color-black-blue: #42567a;
+  --color-fuschia: #ff00ff;
+  --color-iris: #5a4fcf;
+
+  --surface-primary: var(--color-black-blue);
+
+  --text-color-primary: var(--color-black-blue);
+  --text-color-accent: var(--color-blue);
+
+  --text-size-xs: 1rem;
+  --text-size-md: 1.25rem;
+  --text-size-lg: 1.5rem;
+  --text-size-xl: 1.78rem;
+
+  --text-size-xxl: 3.5rem;
+  --text-size-xxxl: 14rem;
+}

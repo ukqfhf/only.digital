@@ -1,0 +1,48 @@
+{
+  "name": "only.digital",
+  "description": "Demonstration purpose only widget for \"Only digital\" company",
+  "version": "0.0.0",
+  "author": "d4niel.iv@gmail.com",
+  "license": "ISC",
+  "homepage": "https://github.com/ukqfhf/only.digital#readme",
+  "bugs": {
+    "url": "https://github.com/ukqfhf/only.digital/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukqfhf/only.digital.git"
+  },
+  "type": "module",
+  "scripts": {
+    "serve": "webpack serve --config webpack.config.ts --mode development",
+    "build": "webpack build --config webpack.config.ts --mode production",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.11.0",
+    "@eslint/js": "^9.34.0",
+    "@eslint/json": "^0.13.2",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.34.0",
+    "globals": "^16.3.0",
+    "html-webpack-plugin": "^5.6.4",
+    "jiti": "^2.5.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "swiper": "^11.2.10"
+  }
+}

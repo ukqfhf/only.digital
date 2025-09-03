@@ -60,12 +60,12 @@ Quick Start (Production build)
 
    ```bash
    docker build -t only-digital .
-   docker run -p 3000:5173 only-digital
+   docker run -p 5173:5173 only-digital
    
    ```
 3. **Access the application**
 
    ```
-   http://localhost:3000
+   http://localhost:5173
    
    ```

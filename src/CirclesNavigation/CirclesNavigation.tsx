@@ -132,7 +132,7 @@ export function CirclesNavigation({
             circleRadius * Math.sin((circle.angle * Math.PI) / 180);
 
           return (
-            <>
+            <g key={circle.title}>
               <circle
                 ref={setCircleRef(idx)}
                 className={styles.point}
@@ -153,7 +153,7 @@ export function CirclesNavigation({
               >
                 {idx + 1}
               </text>
-            </>
+            </g>
           );
         })}
       </svg>

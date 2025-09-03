@@ -53,6 +53,7 @@ export function HistoricalPeriods({ periods }: HistoricalPeriodsProps) {
               />
             </SwiperSlide>
           ))}
+
           <HistoricalPeriodsNavigation periods={periods} />
         </Swiper>
       </div>

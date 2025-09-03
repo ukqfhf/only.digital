@@ -19,7 +19,7 @@ export default function (env: Env = {}, argv: Argv = {}): Configuration {
         ? "js/bundle.[contenthash:8].js"
         : "js/bundle.js",
       path: r("dist"),
-      publicPath: "/",
+      publicPath: productionBuilded ? "/only.digital/" : "/",
       clean: true,
       assetModuleFilename: "assets/[hash][ext][query]"
     },

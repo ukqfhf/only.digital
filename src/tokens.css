@@ -15,16 +15,18 @@
 
   --color-blue: #3877ee;
   --color-black-blue: #42567a;
-  --color-fuschia: #ff00ff;
+  --color-black-blue-10: rgba(66, 86, 122, 0.1);
+  --color-fuschia: #ff80ff;
   --color-iris: #5a4fcf;
 
   --surface-primary: var(--color-black-blue);
+  --surface-secondary: var(--color-black-blue-10);
 
   --text-color-primary: var(--color-black-blue);
   --text-color-accent: var(--color-blue);
 
-  --text-size-xs: 1rem;
-  --text-size-md: 1.25rem;
+  --text-size-xs: 0.87rem;
+  --text-size-md: 1rem;
   --text-size-lg: 1.5rem;
   --text-size-xl: 1.78rem;
 

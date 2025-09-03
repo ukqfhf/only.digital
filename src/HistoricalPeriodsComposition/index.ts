@@ -1,0 +1,1 @@
+export { HistoricalPeriodsComposition } from "./HistoricalPeriodsComposition";

@@ -1,0 +1,40 @@
+.container {
+  padding-bottom: var(--spacing-md);
+
+  height: 100%;
+
+  --swiper-pagination-color: var(--surface-primary);
+  --swiper-pagination-bottom: 0;
+}
+
+.eventsSliderSlide {
+  font-size: var(--text-size-xs);
+  line-height: 145%;
+  width: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+@container (width > 992px) {
+  .eventsSliderSlide {
+    width: 20rem;
+  }
+}
+
+@container (width > 768px) {
+  .eventsSliderSlide {
+    padding-top: 20%;
+  }
+}
+
+.eventTitle {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--text-color-accent);
+  font-size: var(--text-size-md);
+}
+
+.eventDescription {
+  font-size: var(--text-size-sm);
+}

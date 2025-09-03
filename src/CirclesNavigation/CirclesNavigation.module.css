@@ -1,0 +1,69 @@
+.container {
+  --circle-size: 530px;
+
+  display: none;
+
+  position: absolute;
+  top: calc(50% - var(--circle-size) / 2);
+  left: calc(50% - var(--circle-size) / 2);
+
+  z-index: 2;
+}
+
+.title {
+  position: absolute;
+  top: 3%;
+  left: 85%;
+  width: max-content;
+  font-size: 1.25rem;
+}
+
+@container (width > 992px) {
+  .container {
+    display: block;
+  }
+}
+
+.circleContainer {
+  overflow: visible;
+  fill: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  stroke: var(--surface-primary);
+  opacity: 0.2;
+}
+
+.point {
+  fill: var(--surface-primary);
+  cursor: pointer;
+  position: relative;
+  transition: r 0.2s ease;
+}
+
+.point:hover,
+.point[data-active="true"] {
+  r: 23;
+  fill: white;
+  stroke: var(--surface-primary);
+  stroke-opacity: 0.2;
+}
+
+.pointIdx {
+  fill: var(--text-color-primary);
+  font-size: 1.25rem;
+
+  opacity: 0;
+
+  user-select: none;
+  pointer-events: none;
+}
+
+.point:hover + .pointIdx,
+.point[data-active="true"] + .pointIdx {
+  opacity: 1;
+}

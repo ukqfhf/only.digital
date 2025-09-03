@@ -1,0 +1,53 @@
+.container {
+  grid-column: 2 / var(--grid-columns-count);
+
+  align-self: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3.5rem;
+
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+@container (width > 992px) {
+  .title {
+    font-size: 6rem;
+    gap: 3rem;
+
+    justify-self: center;
+  }
+}
+
+@container (width > 1220px) {
+  .title {
+    font-size: 12rem;
+    gap: 7rem;
+  }
+}
+
+.periodStart {
+  color: var(--text-color-accent);
+}
+
+.periodEnd {
+  color: var(--color-fuschia);
+}
+
+.circleContainer {
+  --circle-size: 530px;
+
+  display: none;
+
+  position: absolute;
+  top: calc(50% - var(--circle-size) / 2);
+  left: calc(50% - var(--circle-size) / 2);
+}
+
+@container (width > 992px) {
+  .circleContainer {
+    display: block;
+  }
+}

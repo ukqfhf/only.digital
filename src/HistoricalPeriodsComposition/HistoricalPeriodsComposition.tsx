@@ -1,4 +1,5 @@
-import { type RefObject } from "react";
+import { useEffect, useRef, type RefObject } from "react";
+import gsap from "gsap";
 import type { SwiperClass } from "swiper/react";
 import type { Period } from "../shared-domain";
 
@@ -14,7 +15,27 @@ export function HistoricalPeriodsComposition({
   swiperRef,
   periods
 }: HistoricalPeriodsCompositionProps) {
+  const titleRef = useRef<HTMLHeadingElement>(null);
+
   const activePeriodIdx = useSwiperActiveIndex(swiperRef);
+
+  useEffect(() => {
+    if (titleRef.current) {
+      const tl = gsap.timeline();
+
+      tl.to(titleRef.current, {
+        rotationX: 90,
+        opacity: 0,
+        duration: 0.2,
+        ease: "power2.in"
+      }).to(titleRef.current, {
+        rotationX: 0,
+        opacity: 1,
+        duration: 0.3,
+        ease: "back.out(1.2)"
+      });
+    }
+  }, [activePeriodIdx, titleRef]);
 
   const currentPeriod = periods[activePeriodIdx];
 
@@ -23,7 +44,7 @@ export function HistoricalPeriodsComposition({
 
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>
+      <h2 className={styles.title} ref={titleRef}>
         <span className={styles.periodStart}>{periodStartYear}</span>
         <span className={styles.periodEnd}>{periodEndYear}</span>
       </h2>
